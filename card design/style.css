@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(52, 54, 54);
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.card {
+  background: white;
+  width: 344px;
+  height: 444px;
+  border-radius: 20px;
+}
+.image {
+  padding: 7px;
+}
+.image img {
+  border-radius: 20px;
+}
+
+.content {
+  padding: 20px;
+}
+.capsules span {
+  border: 1px solid rgb(93, 93, 233);
+  border-radius: 8px;
+  padding: 6px 20px;
+  font-size: 15px;
+  color: grey;
+}
+.capsules {
+  padding: 10px 34px 0 20px;
+}
+
+.content p {
+  color: grey;
+}
+.content h1 {
+  display: flex;
+
+  justify-content: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
